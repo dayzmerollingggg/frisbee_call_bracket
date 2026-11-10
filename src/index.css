@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+
+  /* Hide screen headers, navigation, footers, buttons */
+  header, nav, .print\:hidden, button, select, input {
+    display: none !important;
+  }
+
+  /* Show print sheet */
+  .print-sheet {
+    display: block !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5in;
+    size: letter portrait;
+  }
+}

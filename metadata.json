@@ -1,0 +1,6 @@
+{
+  "name": "USAU Ultimate Frisbee Call Resolver & Tournament Bracket Studio",
+  "description": "Interactive USA Ultimate rules resolution engine, call situation customizer, and official USAU tournament bracket & bid generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
